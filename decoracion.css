@@ -1,0 +1,232 @@
+body{
+    margin:0;
+}
+/* Esta es la seccion encabezado */
+.indice {
+    background: rgb(88, 87, 87);
+}
+.menu{
+    font-size: 25px;
+    margin-top: 0;
+    display: flex;
+    color:white;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 18px;
+}
+.link{
+    padding: 0 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+.indice a{
+    color:white;
+}
+/* Esta el fin del encabezado y el comienzo del hero */
+.hero{
+    background:gray;
+    display:flex;
+    align-items: center;
+    font-size: 28px;
+}
+h1 strong{
+    color:rgb(104, 142, 248);
+    margin-top:0;
+}
+/* Este es el fin del hero y el inicio de viajes */
+.viaje {
+    background: rgb(199, 198, 198);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.viaje.texto{
+    display: inline-block;
+}
+.viaje.imagen{
+    display: inline-block;
+}
+/* Termina viajes y comienza pasa tiempo */
+.titulo-libre{
+    background: rgb(199, 198, 198);
+    display: flex;
+    color: rgb(104, 142, 248);
+}
+
+.pasaTiempo {
+    background: rgb(199, 198, 198); 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Deporte.{
+    display: inline-block;
+}
+.leer{
+    display: inline-block;
+}
+/* Esta es la seccion de los lenguajes de programacion */
+.lenguajes{
+    background: rgb(199, 198, 198);
+    display: flex;
+    flex-wrap: wrap;
+}
+.contenido{
+    display: inline-block;
+    width:400px ;
+    height: 300px;
+    margin-bottom: -240px;
+
+}
+.python{
+    display: block;
+    background: rgb(199, 198, 198);
+    margin: 0 10px;
+}
+.python-foto{
+    display:flex;
+    width: 150px;
+    height: 150px;
+    margin: 0 10px;
+    background-size: 150px 150px;
+}
+.html{
+    display: block;
+    background: rgb(199, 198, 198);
+    margin: 0 10px;
+}
+.html-foto{
+    width: 150px;
+    height: 150px;
+    margin: 0 10px;
+    background-size: 150px 150px;
+}
+.css{
+    display: block;
+    background: rgb(199, 198, 198);
+    margin: 0 10px;
+}
+.css-foto{
+    width: 150px;
+    height: 150px;
+    margin: 0 10px;
+    background-size: 150px 150px;
+}
+.javascript{
+    display:block;
+    background: rgb(199, 198, 198);
+    margin: 0 10px;
+}
+.javascript-foto{
+    width: 150px;
+    height: 150px;
+    margin: 0 10px;
+    background-size: 150px 150px;
+}
+/* Esta es la seccion del contacto */
+.tituloLibre{
+    background: gray;
+    display: flex;
+    color:rgb(104, 142, 248);
+}
+.contacto {
+    background:gray;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contato.texto{
+    display: inline-block;
+}
+.contacto.enlaces{
+    display: inline-block;
+}
+.social-link{
+    display:inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+    background-size: 50px 50px;
+ 
+}
+.contacto.texto.p{
+    margin: 15px 5px;
+}
+
+.social-link.facebook{
+    background-image: url("fotos/facebookgris.png")
+}
+.social-link.github{
+    background-image: url("fotos/logoGithub.PNG")
+}
+.social-link.instagram{
+    background-image: url("fotos/instagramGris.jpg")
+}
+
+/* Esta es la seccion del footer */
+.flooter{
+    background: rgb(104, 142, 248);
+    display: flex;
+    color:white;
+}
+/* Este es container para que todo tenga orden */
+.container{
+    max-width: 1000px;
+    flex: 1;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+    background: inherit;
+}
+/* Esta seccion es para el menu de hambuerguesa que se importo */
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?79960f');
+    src:  url('fonts/icomoon.eot?79960f#iefix') format('embedded-opentype'),
+      url('fonts/icomoon.ttf?79960f') format('truetype'),
+      url('fonts/icomoon.woff?79960f') format('woff'),
+      url('fonts/icomoon.svg?79960f#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-menu:before {
+    content: "\e900";
+  }
+ /* Aqui termina el menu de hamburguesa importado y siguen el codigo del burguer */
+
+ .burger-buttom{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgba(0, 0,0,.8);
+    display: none;
+    line-height: 40px;
+    text-align: center;
+    position:fixed;
+    left:5px;
+    top:5px;
+    color:white;
+    z-index:3;
+} 
+

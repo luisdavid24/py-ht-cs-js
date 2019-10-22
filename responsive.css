@@ -1,0 +1,74 @@
+@media screen and (max-width:1023px){
+    .contacto.texto.p{
+        margin: 0 10px;
+    }
+}
+@media screen and (max-width:767px){
+    .titulo-libre{
+        padding-left: 10px;
+    }
+    .viaje{
+        padding-left: 5px;
+    }
+    .hero{
+        padding-top: 35px;
+        padding-left: 10px;
+    }
+    .pasaTiempo{
+        padding-left: 10px;
+    } 
+    .lenguajes{
+        padding-left: 10px;
+    }
+    .tituloLibre{
+        padding-left: 10px;
+    }
+    .contacto{
+        padding-left: 5px;
+    }
+    .flooter{
+        padding-left: 6px;
+    }
+    .contacto.texto.p{
+        margin:5px 10px;
+    }
+    .burger-buttom{
+        display: block;
+        
+    }
+    .menu{
+        display: block;
+        height: auto;
+        width: 100%;
+    }
+    .link{
+        width: 100vw;
+    }
+    .link a{
+        font-size: 30px;
+    }
+    .menu{
+        position: fixed;
+        z-index:2;
+        background: rgba(104, 142, 248,.9);
+        top:0;
+        left:-100vw;
+        width: 100vw;
+        bottom: 0;
+        align-items: center;
+        justify-content: center;
+        transition: .3s;
+    } 
+    .menu.is-active{
+        left: 0;
+    } 
+}
+@media screen and (max-width:425px){
+    .contenido{
+        width:280px ;
+        height: 300px;
+    }
+}
+@media screen and (max-width:320px){
+   
+}
